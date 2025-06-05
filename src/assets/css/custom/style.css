@@ -1,0 +1,180 @@
+.rs-picker-toggle {
+    cursor: context-menu;
+}
+
+.rs-picker-toggle-wrapper {
+    width: 100%;
+}
+
+.rs-picker-default .rs-picker-toggle.rs-btn-sm {
+    height: 28px;
+    padding-left: 12px;
+}
+
+.rs-picker-default .rs-picker-toggle {
+    border-color: #b5b5c3;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+}
+
+.rs-picker-default .rs-picker-toggle:hover {
+    border-color: #b5b5c3;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+}
+
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value,
+.rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value {
+    color: hsl(0, 0%, 20%);
+}
+
+.rs-picker.rs-picker-focused,
+.rs-picker:not(.rs-picker-disabled):hover {
+    border-color: #b5b5c3 !important;
+}
+.disable-date .rs-picker-toggle {
+    background-color: #F0F0F0 !important;
+}
+
+.rs-picker-daterange-menu {
+    z-index: 10000;
+    /* added a large random number, you can choose it more carefully based on your use-case.*/
+}
+
+
+.datepicker-dropdown {
+    z-index: 99 !important;
+}
+.bootstrap-timepicker-widget [data-action] {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    margin: 0 auto;
+}
+.bootstrap-timepicker-widget tr:last-child [data-action="toggleMeridian"] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevron-down' width='24' height='24' viewBox='0 0 24 24' stroke-width='1.5' stroke='%23b5b5c3' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='6 9 12 15 18 9' /%3E%3C/svg%3E") !important;
+}
+.bootstrap-datetimepicker-widget .collapse.in {
+    display: block;
+}
+.bootstrap-datetimepicker-widget.dropdown-menu {
+    width: auto;
+    min-width: 273px;
+}
+.bootstrap-datetimepicker-widget table td.day {
+    line-height: 35px;
+}
+.bootstrap-datetimepicker-widget table thead tr:first-child th,
+.datepicker thead th.datepicker-switch:hover,
+.datepicker thead th.next:hover,
+.datepicker thead th.prev:hover {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: 12px !important;
+}
+.bootstrap-datetimepicker-widget table thead tr:first-child th.prev {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-left' width='24' height='24' viewBox='0 0 24 24' stroke-width='1.5' stroke='%23242841' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='11 7 6 12 11 17' /%3E%3Cpolyline points='17 7 12 12 17 17' /%3E%3C/svg%3E") !important;
+}
+
+.bootstrap-datetimepicker-widget table thead tr:first-child th.next {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-chevrons-right' width='24' height='24' viewBox='0 0 24 24' stroke-width='1.5' stroke='%23242841' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpolyline points='7 7 12 12 7 17' /%3E%3Cpolyline points='13 7 18 12 13 17' /%3E%3C/svg%3E") !important;
+}
+.datepicker tbody tr > td.day.disabled {
+    color: #d1d3e0;
+}
+.form-footer {
+    justify-content: center;
+    display: flex;
+}
+
+.form-footer .btn {
+    margin-left: 15px;
+}
+
+#login-body {
+    margin-top: 100px !important;
+}
+
+#kt_error {
+    text-align: center;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+}
+
+.master {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+}
+.color-red {
+    color: red;
+}
+.rs-input-group>.rs-auto-complete, .rs-input-group>.rs-input {
+    position: relative;
+    z-index: 1 !important;
+}
+
+.rs-input-group.rs-input-group-inside .rs-input-group-addon, .rs-input-group.rs-input-group-inside .rs-input-group-btn {
+    z-index: 1 !important;
+}
+
+.rs-picker-default .rs-picker-toggle {
+    z-index: 1 !important;
+}
+
+.modal-title {
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 30px;
+}
+
+.scroll-y {
+    overflow-y: auto !important;
+    scrollbar-width: thin;
+}
+
+.scroll-y::-webkit-scrollbar {
+    width: 3px !important;
+}
+
+/* Track */
+.scroll-y::-webkit-scrollbar-track {
+    background: #f1f1f1 !important;
+    border-radius: 3px !important;
+}
+
+/* Handle */
+.scroll-y::-webkit-scrollbar-thumb {
+    background: #E0E0E0 !important;
+    border-radius: 3px !important;
+}
+
+/* Handle on hover */
+.scroll-y::-webkit-scrollbar-thumb:hover {
+    background: #FFCCE5 !important;
+    border-radius: 3px !important;
+}
+
+.modal-content {
+    width: 700px !important;
+}
+.menu-text {
+    font-size: 13px !important;
+}
+.form-group div div div {
+    height: auto !important;
+}
+.font-bold {
+    font-weight: bold !important;
+}
+.text-center {
+    text-align: center
+}
+.ult-wrap {
+    justify-content: center !important;
+}
+
+.rs-picker-popup {
+    z-index: 1000 !important;
+}
