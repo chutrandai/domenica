@@ -9,12 +9,12 @@ const Footer = () => {
     return (
         <div className='footerdiv'>
             <div className='copyright'>
-                <MdCopyright /><p>Premium Pizza Türkiye 2024. All rights reserved.</p>
+                <MdCopyright /><p>Domenica Napoli Pizza and Pasta.</p>
             </div>
             <div className='socialmedia-icons'>
                 <div className='icons-item'><FaInstagram/></div>
                 <div className='icons-item'><FaTwitter/></div>
-                <div className='icons-item'><FaFacebook/></div>
+                <div className='icons-item'><FaFacebook onClick={() => {window.open('https://www.facebook.com/people/Domenica-Napoli-Pizza-and-Pasta/61576853903198/', '_blank');}}/></div>
             </div>
 
         </div>

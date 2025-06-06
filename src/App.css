@@ -31,7 +31,7 @@ body {
     width: 10rem;
     height: 10rem;
     margin-left: 2rem;
-    border-radius: 10rem;
+    /* border-radius: 10rem; */
     cursor: pointer;
 }
 
